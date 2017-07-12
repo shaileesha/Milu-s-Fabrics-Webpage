@@ -1,0 +1,343 @@
+/*style for the body tag: a background color, text color, font family, font size, font style and font weight.*/
+*{
+margin: 0px;
+padding: 0px;
+}
+#big_wrapper{
+border: 1px solid white;
+border-radius: 15px;
+width:1000px;
+margin: 20px auto;
+text-align: left;
+}
+.home-box{
+background-color:#6ee1df;
+}
+.contact-box{
+background-color:#d6d6d6;
+}
+.about-box{
+background-color:#B6DEDC;
+}
+.new-box{
+background-color:#dbd7cc;
+}
+.faqs-box{
+background-color:#EEEEEE;
+}
+.order-box{
+background-color:#caadc2;
+}
+.products-box{
+background-color:lightgrey;
+}
+.support-box{
+background-color:lightgrey;
+}
+h1 {
+display: block;
+margin: 0px;
+padding: 20px;
+text-align: center;
+color:#9C6A8D;
+font-variant: bold;
+font-size: 35px;
+text-shadow: 1px 1px 2px cyan;
+border: 2px solid #fff;
+background: #ddd;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 15px;
+-moz-box-shadow: rgb(120,120,120) 5px 5px 10px inset;
+-webkit-box-shadow: rgb(120,120,120) 5px 5px 10px inset;
+box-shadow: rgb(120,120,120) 5px 5px 10px inset;
+background: -webkit-radial-gradient(center, circle,
+#DDFFFF 0%, #ff6699 200%);
+background: -moz-radial-gradient(center, circle,
+#DDFFFF 0%, #ff6699 200%);
+background: radial-gradient(center, circle,
+#DDFFFF 0%, #ff6699 200%);
+}
+h2{
+font: bold 20px Tahoma;
+}
+h3{
+color:maroon;
+}
+h4{
+font-size: 15pt;
+font-weight: bold; 
+color:#9C6A8D; 
+font-family: Arial, Helvetica, sans-serif; 
+text-align: left; 
+font-variant: small-caps;
+}
+header, sectiom, footer, aside, aside, nav, article {
+display:block;
+}
+.home-feature{
+color: white ; 
+font-family: Arial, Verdana; 
+font-size: 20px ; 
+font-style: italic; 
+font-weight:500; 
+text-align:left;
+line-height:200%;
+padding:0px 0px 15px 0px;
+}
+.about-feature{
+color:#52B4AF ; 
+font-family: Arial, Verdana; 
+font-size: 20px ; 
+font-style: italic; 
+font-weight:500; 
+text-align:left;
+line-height:200%;
+padding:0px 0px 15px 0px;
+}
+.contact-feature{
+color: black; 
+font-family: Arial, Verdana; 
+font-size: 20px ; 
+font-style: italic; 
+font-weight:500; 
+text-align:left;
+line-height:200%;
+padding:0px 0px 15px 0px;
+}
+.new-feature{
+color: black; 
+font-family: Arial, Verdana; 
+font-size: 20px ; 
+font-style: italic; 
+font-weight:500; 
+text-align:left;
+line-height:200%;
+padding:0px 0px 15px 0px;
+}
+.order-feature {
+border-radius: 8px;
+text-align: left;
+color: yellow;
+text-shadow: 2px 2px 2px blue;
+font-variant: small-caps;
+font-size: 20px;
+font-weight:bolder;
+font-family: optima;
+line-height:200%;
+padding:0px 0px 15px 0px;
+}
+.faqs-feature{
+color: #9C6A8D; 
+font-family: Arial, Verdana; 
+font-size: 20px ; 
+font-style: italic; 
+font-weight:900; 
+text-align:left;
+line-height:200%;
+padding:0px 0px 15px 0px;
+}
+.products-feature{
+color: #1aadc2; 
+font-family: Tahoma; 
+font-size: 20px ; 
+font-style: italic; 
+font-weight:900; 
+text-align:left;
+line-height:200%;
+padding:0px 0px 15px 0px;
+}
+.support-feature{
+color: blue; 
+font-family: Tahoma, Verdana; 
+font-size: 20px ; 
+font-style: italic; 
+font-weight:900; 
+text-align:left;
+line-height:200%;
+padding:0px 0px 15px 0px;
+}
+label{
+color: yellow;
+font-size: 14px;
+font-family: Times sans-serif;
+font-weight: bold;
+margin: 20px;
+}
+#main_section{
+float: left;
+width: 850px;
+margin: 30px; /* this is 720px 280 left */
+}
+#namaste-feature {
+background-image: url(http://3.bp.blogspot.com/-HYLdYxwLFQg/UUITqhYpVaI/AAAAAAAAGY8/gQIxCCE9lSs/s1600/namaskar111.gif);
+background-repeat: no-repeat;
+background-size: 75px;
+background-position: left;
+padding: 50px 0px 0px 50px;
+font-size: 20pt; 
+text-shadow: 5px 2px 5px brown;
+color:yellow; 
+text-align: left; 
+font-family: "Goudy Old Style", Times, sans-serif;
+}
+#sub-title {
+font-size: 15pt;
+font-weight: bold; 
+color:#9C6A8D; 
+font-family: Arial, Helvetica, sans-serif; 
+text-align: left; 
+font-variant: small-caps;
+}
+#address-style{
+font-size: 10pt;
+font-weight: normal; 
+color:black; 
+font-family: Arial, Helvetica, serif;
+text-align:center;
+}
+p {
+font-family: 'Comic San MS', 'Book Antigua', 
+text-align:justify; 
+font-size: 15px;
+}
+/*Hyper links should have a different background color and text decoration.
+When moving the mouse over the link, a different color is shown.
+Visiting links must be of different color.*/
+a:link {
+font-weight:bolder; 
+color:purple; 
+text-decoration:none; 
+background-color:#9C6A8D; 
+margin-left:10px; 
+font-size: 15px; 
+text-align:center;
+font-style:italic;
+}
+a:visited {
+font-weight:bolder; 
+color:#52B4AF; 
+text-decoration:none;
+background-color:#9C6A8D; 
+margin-left:10px; 
+font-size: 15px; 
+text-align:center;
+font-style:italic;
+}
+a:hover {
+font-weight:bolder; 
+color:white; 
+text-decoration:underline; 
+background-color:#9C6A8D; 
+margin-left:10px; 
+font-size: 15px; 
+text-align:center;
+font-style: oblique;
+}
+hr {
+height: 2px;
+background-color:#9C6A8D;
+border: 0 none;
+}
+#the_footer{
+clear:both;
+text-align: center;
+padding: 5px;
+border-top: 2px solid #9C6A8D;
+}
+article{
+padding: 20px;
+margin-bottom: 15px;
+}
+#form-footer{
+margin: 75px 0px 0px 0px;
+padding: 20px 5px 10px 20px;
+border-radius: 5px;
+}
+#home-footer{
+text-align:right;
+font-size: 12px;
+}
+#google-font-feature{
+font-size:12px;
+font-align:left;
+}
+button{
+color:white;
+height:30px;
+width:80px;
+font-size:15px;
+}
+#products{
+margin: auto;
+margin-top: 30px;
+}
+#products td{
+padding: 30px;
+}
+#products td img {
+width: 245px;
+height: 275px;
+border: 2px solid gold;
+border-radius: 15px;
+}
+#products td img:hover {
+border: 1px solid red;
+}
+#products td div {
+font-style: normal;
+font-align:center;
+padding-bottom: 15px;
+margin:50px;
+border-radius: 10px;
+}
+#emboss {
+display:block;
+padding: 5px;
+font-size:20pt;
+color: #ccc;
+text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.75),
+1px 1px 1px rgba(0, 0, 0, 0.75); }
+.cols-1
+{
+columns:50px 3;
+-webkit-columns:50px 3; /* Safari and Chrome */
+-moz-columns:50px 3; /* Firefox */
+}
+.cols-2
+{
+columns:50px 2;
+-webkit-columns:50px 2; /* Safari and Chrome */
+-moz-columns:50px 2; /* Firefox */
+}
+.support-frame{
+width: 300px;
+height: 200px;
+margin: 50px 20px 90px 50px;
+border-color: white;
+border-style: outset ridge outset ridge;
+border-width: 5px 10px;
+padding: 10px 0px 0px 30px ;
+background-color: #9f909a;
+float: center;
+}
+#support-header {
+color: black;
+text-align: left;
+font-family: Times New Roman;
+font-style: bold;
+font-variant: small-caps;
+padding:20px;
+}
+#support-box-text {
+color: black;
+font-weight: normal;
+font-size: 14px;
+text-align: left;
+}
+span{
+font-size: 18px;
+color: white;
+text-align: justify;
+font-style: bold;
+}
